@@ -39,11 +39,11 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid #000000; /* Franja dorada metálica */
+      border: 4px solid #000000;
       background-color: #000;
       position: absolute;
       left: 50%;
-      bottom: -60px; /* Justo en la línea inferior de la portada */
+      bottom: -60px;
       transform: translateX(-50%);
       z-index: 10;
       box-shadow: 0 0 8px rgba(0,0,0,0.2);
@@ -54,7 +54,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 80px 15px 0; /* espacio por la imagen que sobresale */
+      padding: 80px 15px 0;
     }
 
     .title {
@@ -64,10 +64,24 @@
     }
 
     .subtitle {
+      font-size: 18px;
+      color: #000000;
+      margin: 5px 0 10px;
+      font-style: normal; /* Quitamos el texto inclinado */
+    }
+
+    .emoji-row {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .justified-description {
       font-size: 10px;
       color: #000000;
-      font-style: italic;
-      margin: 5px 0 10px;
+      margin: 5px 0 15px;
+      text-align: justify;
+      padding: 0 10px;
+      font-weight: bold; /* Negritas */
     }
 
     .small-text {
@@ -75,7 +89,8 @@
       color: #000000;
       margin-bottom: 15px;
       max-width: 400px;
-      text-align: center;
+      text-align: justify;
+      font-weight: bold; /* Negritas */
     }
 
     .buttons {
@@ -89,7 +104,7 @@
 
     .button-link {
       background-color: #000000;
-      color: #ffffff; 
+      color: #ffffff;
       border: 2px solid #000000;
       padding: 10px 20px;
       border-radius: 35px;
@@ -118,14 +133,17 @@
     <div class="info">
       <h1 class="title">María Barbara Zavala</h1>
       <h2 class="subtitle">Mi blog personal</h2>
-      <h3 class="subtitle">Licenciada en administración financiera, gestión empresarial y liderazgo sistémico. Lectora. Piscis. Me gusta escribir. Maestra en artes ocultas. Filosofía, mentalidad y conocimiento. Mis blogs y mis colecciones:</h3>
+      <div class="emoji-row">🖤🥀🩸🖋️📄💋♥️💄👑🌹🔱</div>
+      <div class="justified-description">
+        Lectora. Piscis. Maestra en artes ocultas. Autoliderazgo y autoconocimiento: Filosofía, psicología, sabiduría, mentalidad, conocimiento, esoterismo, ocultismo, misticismo, espiritualidad, ciencias de la mente, ciencias ocultas, crecimiento personal, crecimiento mental, crecimiento espiritual, gestión de emociones, inteligencia emocional. Diseñadora digital. Licenciada en administración financiera. Especialista en gestión empresarial y liderazgo sistémico. Lectora, me gusta escribir. Filosofía, mentalidad y conocimiento. Ciencias sociales, ciencias políticas, ciencias administrativas, ciencias de la gestión, ciencias organizacionales, ciencias empresariales, ciencias corporativas, ciencias económicas, ciencias financieras, ciencias monetarias, ciencias contables. Liderazgo, finanzas, contabilidad, administración, economía, negocios, emprendimiento, empresas, tecnología, productividad, finanzas personales. Entre otras ciencias, disciplinas y temas relacionados a mi profesión en el sector empresarial público y privado.
+      </div>
       <div class="small-text">
         Listas de temas, temarios completos, información, investigación, educación, análisis, criterio, estudio, frases, citas, escritos, pensamientos, fragmentos, meditaciones, reflexiones, enciclopedias, artículos, libros.
       </div>
     </div>
 
     <div class="buttons">
-      <a class="button-link" href="https://bio.site/xblacknoirfoliombz" tsrget="_blank" target"_blank">BioSite Oficial</a>
+      <a class="button-link" href="https://bio.site/xblacknoirfoliombz" target="_blank">BioSite Oficial</a>
       <a class="button-link" href="https://drive.google.com/drive/folders/15JfL5Y9J5cSjwN1EnIEI7vpcoW5Y-1GJ" target="_blank">Blog personal</a>
       <a class="button-link" href="https://mariabarbarazavala.github.io/biositeprofesional/" target="_blank">Blog profesional</a>
       <a class="button-link" href="https://mariabarbarazavala.github.io/biositeconocimiento/" target="_blank">Blog de Conocimiento</a>
