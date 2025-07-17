@@ -82,7 +82,7 @@
       text-align: justify;
       padding: 0 10px;
       font-weight: bold;
-      max-width: 1000px;
+      max-width: 1200px;
     }
 
     .small-text {
@@ -91,23 +91,36 @@
       margin-bottom: 15px;
       text-align: justify;
       font-weight: bold;
-      max-width: 1000px;
+      max-width: 1200px;
     }
 
-    .link-bio {
-      font-size: 12px;
-      color: #000000;
-      text-align: left;
-      width: 100%;
-      max-width: 1000px;
-      padding-left: 10px;
-      margin-top: -5px;
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin: 20px 0;
+      padding: 0 10px;
     }
 
-    .link-bio a {
-      color: #000000;
-      text-decoration: none;
+    .button-link {
+      background-color: #000000;
+      color: #ffffff;
+      border: 2px solid #000000;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 14px;
       font-weight: bold;
+      text-decoration: none;
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .button-link:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 16px #aaa;
     }
   </style>
 </head>
@@ -130,8 +143,12 @@
       <div class="small-text">
         Listas de temas, temarios completos, información, investigación, educación, análisis, criterio, estudio, frases, citas, escritos, pensamientos, fragmentos, meditaciones, reflexiones, enciclopedias, artículos, libros.
       </div>
-      <div class="link-bio">
-        🔗 <a href="https://bio.site/mariabarbarazav" target="_blank">bio.site/mariabarbarazav</a>
+
+      <div class="buttons">
+        <a class="button-link" href="https://bio.site/xblacknoirfoliombz" target="_blank">BioSite Oficial</a>
+        <a class="button-link" href="https://drive.google.com/drive/folders/15JfL5Y9J5cSjwN1EnIEI7vpcoW5Y-1GJ" target="_blank">Blog personal</a>
+        <a class="button-link" href="https://mariabarbarazavala.github.io/biositeprofesional/" target="_blank">Blog profesional</a>
+        <a class="button-link" href="https://mariabarbarazavala.github.io/biositeconocimiento/" target="_blank">Blog de Conocimiento</a>
       </div>
     </div>
   </div>
