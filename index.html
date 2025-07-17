@@ -5,11 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Barbara's Biolink</title>
   <style>
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
       font-family: Arial, sans-serif;
       background-color: #ffffff;
       color: #000000;
@@ -19,17 +16,16 @@
 
     .container {
       width: 100%;
-      max-width: 1200px;
+      max-width: 800px;
       padding-bottom: 40px;
     }
 
     .cover {
       width: 100%;
+      height: 300px;
       background-image: url('https://i.postimg.cc/vZwxNsLm/d365b6fe50b32c811a75c10cca38fa39.jpg');
       background-size: cover;
       background-position: center;
-      background-repeat: no-repeat;
-      height: 300px;
       position: relative;
     }
 
@@ -45,82 +41,68 @@
       bottom: -60px;
       transform: translateX(-50%);
       z-index: 10;
-      box-shadow: 0 0 8px rgba(0,0,0,0.2);
     }
 
     .info {
-      margin-top: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 80px 15px 0;
+      margin-top: 80px;
+      text-align: center;
+      padding: 0 20px;
     }
 
     .title {
       font-size: 22px;
-      color: #000000;
-      margin: -13px 0 0;
+      font-weight: bold;
+      margin: 0;
     }
 
     .subtitle {
-      font-size: 18px;
-      color: #000000;
-      margin: 5px 0 10px;
-      font-style: normal;
-      text-align: center;
+      font-size: 16px;
+      margin-top: 5px;
+      font-weight: bold;
     }
 
     .emoji-row {
       font-size: 18px;
-      margin-bottom: 10px;
+      margin: 10px 0;
     }
 
-    .justified-description {
-      font-size: 10px;
-      color: #000000;
-      margin: 5px 0 15px;
-      text-align: justify;
-      padding: 0 10px;
-      font-weight: bold;
-      max-width: 1200px;
-    }
-
+    .description,
     .small-text {
-      font-size: 10px;
-      color: #000000;
-      margin-bottom: 15px;
+      font-size: 11px;
       text-align: justify;
       font-weight: bold;
-      max-width: 1200px;
+      margin: 10px auto;
+      max-width: 1000px;
     }
 
     .buttons {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
-      margin: 20px 0;
-      padding: 0 10px;
+      gap: 14px;
+      margin-top: 25px;
+      padding: 0 20px;
     }
 
     .button-link {
       background-color: #000000;
       color: #ffffff;
-      border: 2px solid #000000;
-      padding: 10px 20px;
-      border-radius: 30px;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 35px;
       font-size: 14px;
       font-weight: bold;
       text-decoration: none;
       width: 100%;
-      max-width: 300px;
+      max-width: 400px;
       text-align: center;
-      transition: all 0.3s ease;
     }
 
-    .button-link:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 16px #aaa;
+    @media (max-width: 480px) {
+      .button-link {
+        font-size: 13px;
+        padding: 12px 20px;
+      }
     }
   </style>
 </head>
@@ -129,7 +111,7 @@
     <div class="cover">
       <img
         src="https://i.postimg.cc/jdCfBc7D/IMG-20250711-063924-333.webp"
-        alt="Profile Picture"
+        alt="Foto de perfil"
         class="profile-pic"
       />
     </div>
@@ -137,7 +119,7 @@
       <h1 class="title">María Barbara Zavala</h1>
       <h2 class="subtitle">Mi blog personal</h2>
       <div class="emoji-row">🖤🥀🩸🖋️📄💋♥️💄👑🌹🔱</div>
-      <div class="justified-description">
+      <div class="description">
         Lectora. Piscis. Maestra en artes ocultas. Autoliderazgo y autoconocimiento: Filosofía, psicología, sabiduría, mentalidad, conocimiento, esoterismo, ocultismo, misticismo, espiritualidad, ciencias de la mente, ciencias ocultas, crecimiento personal, crecimiento mental, crecimiento espiritual, gestión de emociones, inteligencia emocional. Diseñadora digital. Licenciada en administración financiera. Especialista en gestión empresarial y liderazgo sistémico. Lectora, me gusta escribir. Filosofía, mentalidad y conocimiento. Ciencias sociales, ciencias políticas, ciencias administrativas, ciencias de la gestión, ciencias organizacionales, ciencias empresariales, ciencias corporativas, ciencias económicas, ciencias financieras, ciencias monetarias, ciencias contables. Liderazgo, finanzas, contabilidad, administración, economía, negocios, emprendimiento, empresas, tecnología, productividad, finanzas personales. Entre otras ciencias, disciplinas y temas relacionados a mi profesión en el sector empresarial público y privado.
       </div>
       <div class="small-text">
